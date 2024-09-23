@@ -7,6 +7,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Montserrat' ;
     margin: 0;
     /* border: 1px solid black; */
 }
@@ -24,8 +25,7 @@
 }
 
 body{
-    background-color: var(--main-background);
-    font-family: 'Montserrat';
+    background: var(--main-background);
     min-height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -47,4 +47,8 @@ header {
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    }   
+    }
+
+.bg-main {
+    background-color: var(--main-background);
+}
