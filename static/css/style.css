@@ -1,0 +1,50 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+
+/* SETTINGS */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+:root {
+    --vivid-sky-blue: hsla(188, 84%, 54%, 1);
+    --black: hsla(0, 0%, 0%, 1);
+    --persian-pink: hsla(322, 100%, 74%, 1);
+    --electric-indigo: hsla(262, 68%, 50%, 1);
+    --mint-green: hsla(180, 100%, 93%, 1);
+    --electric-purple: hsla(281, 90%, 55%, 1);
+    --fuchsia: hsla(298, 91%, 58%, 1);
+    --main-background: hsla(180, 100%, 98.5%, 1);
+    
+}
+
+body{
+    background-color: var(--main-background);
+    font-family: 'Montserrat';
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    min-height: 15vh;
+    width: 100vw;
+    background: var(--main-background);
+    padding: 2.5vh 2.5vw;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-image: linear-gradient(to right, hsla(0, 0%, 0%, 0) 5%, hsla(0, 0%, 0%, 0.05) 10%, hsla(0, 0%, 0%, 0.05) 90%, hsla(0, 0%, 0%, 0) 95%) 1;
+    border-width: 0.25vh;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    }   
