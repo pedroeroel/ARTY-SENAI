@@ -96,143 +96,35 @@
       </nav>
     </header>
 
-    <main class="bg-main flex-fill p-5">
+    <main class="bg-main p-5 flex-fill">
       <div class="container mt-5">
-        <h1 class="text-center mb-4">Cadastro de Evento Cultural</h1>
+        <h1 class="text-center mb-4">Login</h1>
 
         <form id="event-form">
-          <!-- Form Start -->
-
-          <div class="mb-5">
-            <div class="form-floating mb-5">
-              <input
-                type="text"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-              />
-              <label for="floatingInput">Nome do Evento</label>
-            </div>
-
-            <div class="form-floating">
-              <textarea
-                class="form-control"
-                placeholder="Leave a comment here"
-                id="floatingTextarea"
-              ></textarea>
-              <label for="floatingTextarea">Descrição</label>
-            </div>
-          </div>
-
-          <div class="row mb-5">
-            <div class="col-md-6">
-              <input type="date" class="form-control" id="date" required />
-            </div>
-
-            <div class="col-md-6">
-              <input type="time" class="form-control" id="time" required />
-            </div>
-          </div>
-
-          <div class="mb-5">
-            <div class="form-floating mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-              />
-              <label for="floatingInput">Localização do Evento</label>
-            </div>
-          </div>
-
-          <div class="mb-5">
-            <label for="formFileMultiple" class="form-label"
-              >Imagens do Evento</label
-            >
-            <input
-              class="form-control"
-              type="file"
-              id="formFileMultiple"
-              multiple
-            />
-          </div>
-
-          <div class="container d-flex flex-wrap justify-content-center mb-5 p-0">
-            <select class="form-select mb-5" aria-label="Default select example">
-              <option selected>Categoria</option>
-              <option value="1">Categoria 1</option>
-              <option value="2">Categoria 2</option>
-              <option value="3">Categoria 3</option>
-            </select>
-            <label class="me-2">Classificação Indicativa:</label>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio1"
-                value="option1"
-              />
-              <label class="form-check-label" for="inlineRadio1">AL</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineRadio2">A10</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineRadio2">A12</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineRadio2">A14</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineRadio2">A16</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineRadio2">A18</label>
-            </div>
-          </div>
-
           <div
-            class="container d-flex align-items-center justify-content-center"
+            class="container d-flex w-75 align-items-center flex-wrap justify-content-center"
           >
+            <div class="form-floating w-50 mx-3 mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Endereço de E-mail</label>
+            </div>
+            <div class="form-floating w-50 mx-3 mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Senha</label>
+            </div>
+
             <button type="submit" class="btn w-50 btn-primary">
-              Cadastrar Evento
+              Fazer Login
             </button>
           </div>
         </form>

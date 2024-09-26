@@ -49,6 +49,10 @@ header {
     border-left: 0;
     }
 
+main {
+    min-height: 75vh;
+}
+
 .bg-main {
     background-color: var(--main-background);
 }
