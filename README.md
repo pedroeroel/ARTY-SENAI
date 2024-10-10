@@ -4,22 +4,23 @@
 
 ![BRAND](./img/ARTY.png)
 
-**Descrição:**
-O projeto visa ser um facilitador entre pessoas e eventos culturais locais. Utilizando de elementos CRUD para a divulgação destes eventos.
+**Description:**
+This projects aim on being an intermediary between the event and the public by publicizing them.
 
 ## Índice
-- Funcionalidades
-- Tecnologias Utilizadas
-- Autores
-- Licença
+*[Features](#features)
+*[Used Technologies](#used-technologies)
+*[Authors](#authors)
+*[License](#license)
 
-## Funcionalidades
-- Listar as principais funcionalidades do projeto, como:
- - Exemplo: Adicionar tarefas em uma lista.
- - Exemplo: Editar e excluir tarefas.
- - Exemplo: Persistência de dados localmente.
+## Features
 
-## Tecnologias Utilizadas
+- Main Features:
+ - Login page.
+ - Home page with featured events.
+ - Responsiveness.
+
+## Used Technologies
 
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -27,12 +28,12 @@ O projeto visa ser um facilitador entre pessoas e eventos culturais locais. Util
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Autores
+## Authors
 
-- Pedro Eduardo Roel - [Github](https://github.com/pedroeroel) - pedroedroel@gmail.com
-- Heitor de Santana Schütz - [GitHub](https://github.com/funnyhdss) - heitor.schutz.senaisp@gmail.com
-- Antonio Jairo Neto - [Github](https://github.com/ajacn) - antonio.jairo.senai@gmail.com
+- Pedro Eduardo Roel - [github.com/pedroeroel](https://github.com/pedroeroel) - pedroedroel@gmail.com
+- Heitor de Santana Schütz - [github.com/funnyhdss](https://github.com/funnyhdss) - heitor.schutz.senaisp@gmail.com
+- Antonio Jairo Neto - [github.com/ajacn](https://github.com/ajacn) - antonio.jairo.senai@gmail.com
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+This project is licensed on MIT's license - read LICENSE.txt for more.
