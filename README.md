@@ -2,6 +2,8 @@
 
 # Arty
 
+[BRAND](./img/ARTY.png)
+
 **Descrição:**
 O projeto visa ser um facilitador entre pessoas e eventos culturais locais. Utilizando de elementos CRUD para a divulgação destes eventos.
 
