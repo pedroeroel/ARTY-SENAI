@@ -4,6 +4,10 @@
 
 ![BRAND](./img/ARTY.png)
 
+## Status
+
+:construction: In development :construction:
+
 **Description:**
 This projects aim on being an intermediary between the event and the public by publicizing them.
 
