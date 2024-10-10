@@ -11,11 +11,11 @@
 **Description:**
 This projects aim on being an intermediary between the event and the public by publicizing them.
 
-## Índice
-*[Features](#features)
-*[Used Technologies](#used-technologies)
-*[Authors](#authors)
-*[License](#license)
+## Index
+* [Features](#features)
+* [Used Technologies](#used-technologies)
+* [Authors](#authors)
+* [License](#license)
 
 ## Features
 
